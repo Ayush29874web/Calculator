@@ -3,7 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="calculator.css">
+    <style> 
+      * {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 35%;
+  height: 700px;
+  background-color: rgb(62, 55, 55);
+}
+.calculator {
+  height: 5%;
+  width: 100%;
+  font-size: 2rem;
+  text-align: start;
+  background-color: white;
+}
+.output {
+  height: 45%;
+  width: 100%;
+  background-color: wheat;
+  margin-top: 1px;
+  position: relative;
+}
+.display {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 2rem;
+}
+.keys {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+   height: 50%;
+   margin-top: 3%; 
+}
+.num {
+  height: 15%;
+  width: 23%;
+  border-radius: 25%;
+  font-size: 2rem;
+}</style>
     <title>Calculator</title>
   </head>
   <body>
@@ -30,3 +72,4 @@
     <script src="calculator.js"></script>
   </body>
 </html>
+
